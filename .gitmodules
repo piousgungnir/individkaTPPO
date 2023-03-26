@@ -1,0 +1,6 @@
+[submodule "grpc"]
+	path = grpc
+	url = https://github.com/grpc/grpc
+[submodule "fmt"]
+	path = fmt
+	url = https://github.com/fmtlib/fmt

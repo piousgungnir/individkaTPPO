@@ -15,3 +15,5 @@ install_manifest.txt
 
 .cache
 cmake-*
+
+src/protoFiles/*.pb.*

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package chatBot;
+
+// The greeting service definition.
+service chat {
+  // Sends a greeting
+  rpc SayHello (chatBotRequest) returns (chatBotReply) {}
+  // Sends another greeting
+  rpc SayHelloAgain (chatBotRequest) returns (chatBotReply) {}
+}
+
+// The request message containing the user's name.
+message chatBotRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message chatBotReply {
+  string message = 1;
+}
